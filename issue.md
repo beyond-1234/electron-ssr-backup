@@ -19,7 +19,7 @@ Manjaro/Archlinux 运行程序时无法运行，在终端运行 electron-ssr �
 ###  [error] 2019-08-03 16:26:47 INFO util.py:85 loading libcrypto from libcrypto.so.1.0.0
 - `sudo apt-get install libssl-dev`
 - `sudo apt-get install libsodium-dev`<br>
-- 以上两条命令是为了解决软件报错提示缺少libcrypto.so这个库，但实际能否解决并未能验证
+以上两条命令是为了解决软件报错提示缺少libcrypto.so这个库，但实际能否解决并未能验证
 
 - 可能的解决方案
 - 对于 ubuntu 21.04 及以上系统，由于 openssl 库中的 libcrypto 库不支持 auth_chain_a 协议的 rc4 加密方式(或者说存在bug?)，导致出现这个错误
