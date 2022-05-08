@@ -13,8 +13,8 @@ Manjaro/Archlinux 运行程序时无法运行，在终端运行 electron-ssr �
 - `sudo pacman -S gconf`
 
 ###  Ubuntu 22.04 安装了python2 也提示找不到 python 的问题
-- Ubuntu 22.04 不再为python2创建/usr/bin/python的软连接
-- 在/usr/bin下创建软连接 `ln -s python2.7 python` 即可
+- Ubuntu 22.04 不再为 python2 创建 /usr/bin/python 的软连接
+- 在 /usr/bin 下创建软连接 `ln -s python2.7 python` 即可
 
 ###  [error] 2019-08-03 16:26:47 INFO util.py:85 loading libcrypto from libcrypto.so.1.0.0
 - `sudo apt-get install libssl-dev`
