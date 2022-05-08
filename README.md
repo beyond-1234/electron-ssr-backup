@@ -6,6 +6,7 @@
 - 本应用使用`gsetting`设置系统代理，所以有些Linux系统无法使用该功能，请参考[Ubuntu.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md)手动设置系统代理。
 - 火狐浏览器请注意在浏览器设置中更改代理方式为使用系统代理或手动设置。
 - Chrome浏览器默认使用系统代理
+- 对于ubuntu 21.04 及以上系统，libcrypto库不支持auth_chain_a协议，故请注意避免使用auth_chain_a协议
 
 ## 2019-08-05更新
 更新内容：<br>
