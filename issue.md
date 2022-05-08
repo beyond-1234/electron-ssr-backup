@@ -12,7 +12,7 @@
 Manjaro/Archlinux 运行程序时无法运行，在终端运行 electron-ssr 发现缺少 lib-gconf.so 这个库文件，只需要安装 gconf 即可解决<br>
 - `sudo pacman -S gconf`
 
-###  Ubuntu 22.04 安装了python2 也提示找不到python的问题
+###  Ubuntu 22.04 安装了python2 也提示找不到 python 的问题
 - Ubuntu 22.04 不再为python2创建/usr/bin/python的软连接
 - 在/usr/bin下创建软连接 `ln -s python2.7 python` 即可
 
